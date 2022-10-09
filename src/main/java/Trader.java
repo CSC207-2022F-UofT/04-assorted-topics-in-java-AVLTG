@@ -41,8 +41,8 @@ public class Trader<T> {
      */
     public Trader(int money){
         this.money = money;
-        this.inventory = new ArrayList<T>();
-        this.wishlist = new ArrayList<T>();
+        this.inventory = new ArrayList<>();
+        this.wishlist = new ArrayList<>();
     }
 
 
@@ -124,7 +124,7 @@ public class Trader<T> {
     }
 
     /**
-     * Buy items from other.
+     * Buy items from others.
      *
      * @return True iff at least one item was bought from other.
      */
